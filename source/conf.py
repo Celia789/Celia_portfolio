@@ -31,6 +31,7 @@ source_suffix = {
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 
+html_favicon = "_static/star-regular.svg"
 html_title = "Célia Barat"
 
 html_theme_options = {
