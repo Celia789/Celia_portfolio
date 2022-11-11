@@ -32,7 +32,7 @@ html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 
 html_favicon = "_static/star-regular.svg"
-html_title = "Célia Barat"
+html_title = "cbarat"
 
 html_theme_options = {
   #"github_url": "https://github.com/Celia789/",
@@ -45,3 +45,7 @@ html_theme_options = {
         ],
   "search_bar_text": "Search this site...",
 }
+
+# -- Sidebar Options for HTML output -------------------------------------------------
+html_sidebars = {'index': ['sidebar.html'],
+                 'about': ['sidebar.html'],}
