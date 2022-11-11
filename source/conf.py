@@ -13,7 +13,7 @@ author = 'Celia Barat'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser"]
+extensions = ["myst_parser","ablog"]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -30,7 +30,7 @@ source_suffix = {
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
-
+html_css_files = ["custom.css"]
 html_favicon = "_static/star-regular.svg"
 html_title = "cbarat"
 
@@ -48,4 +48,10 @@ html_theme_options = {
 
 # -- Sidebar Options for HTML output -------------------------------------------------
 html_sidebars = {'index': ['sidebar.html'],
-                 'about': ['sidebar.html'],}
+                 'about': ['sidebar.html'],
+                 'blog': ['tagcloud.html', 'archives.html']}
+
+# -- Blog -------------------------------------------------
+blog_title = "Mon blog"
+blog_path = "blog"
+blog_post_pattern = "posts/*/*"
