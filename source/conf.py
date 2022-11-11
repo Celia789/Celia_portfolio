@@ -36,7 +36,7 @@ html_theme_options = {
   "icon_links": [
         {
             "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/célia-barat-b32436204/,
+            "url": "https://www.linkedin.com/in/célia-barat-b32436204/",
             "icon": "fa-brands fa-linkedin",
         },        
         ],
